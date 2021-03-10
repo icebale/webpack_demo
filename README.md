@@ -7,12 +7,11 @@
 ## 项目运行
 
 `npm install`
+
 `npm run test`
 
-## 添加功能
 
 ## 项目打包
 
 `npm run build`
 
-## 安装使用

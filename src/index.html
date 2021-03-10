@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta
+      name="viewport"
+      content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width"
+    />
+    <title>test</title>
+  </head>
+  <style>
+    html,
+    body {
+      font-size: 12px;
+      margin: 0;
+    }
+    .placeholder {
+      height: 2000px;
+      background-color: #eee;
+    }
+  </style>
+  <body>
+    <div id="app">
+      <img src="//st.3.cn/logo/user/default-avatar-150x150.png" alt="" />
+    </div>
+  </body>
+
+  <script>
+    (function () {
+      function _a(d, c, e) {
+        if (d.addEventListener) {
+          d.addEventListener(c, e, false);
+        } else {
+          d.attachEvent("on" + c, e);
+        }
+      }
+      function _b() {
+        var c = document.documentElement.clientWidth || 375;
+        var _size = c / 3.75 / 2;
+        document.documentElement.style.fontSize = _size + "px";
+      }
+      _b();
+      _a(window, "resize", _b);
+    })();
+  </script>
+
+  <script>
+    window.onload = function () {
+      console.log("Ice_utils", Ice_utils);
+    };
+  </script>
+</html>

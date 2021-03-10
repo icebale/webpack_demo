@@ -1,6 +1,6 @@
 import cookie from "js-cookie";
 
-let domain = ".jd.id";
+let domain = "github.com";
 (function () {
   if (process.env.NODE_ENV === "development") {
     domain = "localhost";
